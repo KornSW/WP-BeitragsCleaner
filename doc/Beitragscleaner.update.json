@@ -1,0 +1,14 @@
+{
+  "name": "Beitragscleaner",
+  "version": "1.2.1",
+  "author": "KornSW",
+  "homepage": "https://github.com/KornSW/WP-BeitragsCleaner",
+  "download_url": "https://github.com/KornSW/WP-BeitragsCleaner/releases/download/v1.2.1/Beitragscleaner.zip",
+  "requires": "6.0",
+  "requires_php": "7.4",
+  "tested": "",
+  "sections": {
+    "description": "Zeigt Beiträge ohne gültigen Autor an, verschiebt sie blockweise in den Papierkorb und kann den Papierkorb blockweise leeren.",
+    "changelog": "<h4>Version 1.2.1</h4><ul><li>moved **MVP** from internal Repo to here...</li></ul>"
+  }
+}
