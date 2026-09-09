@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Beitragscleaner
+ * Plugin Name: KornSW BeitragsCleaner
  * Description: Zeigt Beiträge ohne gültigen Autor an, verschiebt sie blockweise in den Papierkorb und kann den Papierkorb blockweise leeren.
  * Version: 1.2.2
  * Author: KornSW
