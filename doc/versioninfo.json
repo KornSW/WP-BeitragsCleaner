@@ -1,13 +1,13 @@
 {
-  "currentVersionWithSuffix": "1.2.1",
+  "currentVersionWithSuffix": "1.2.2",
   "releaseType": "",
-  "currentVersion": "1.2.1",
+  "currentVersion": "1.2.2",
   "currentMajor": 1,
   "currentMinor": 2,
-  "currentFix": 1,
-  "previousVersion": "1.2.0",
+  "currentFix": 2,
+  "previousVersion": "1.2.1",
   "changeGrade": "fix",
-  "versionTimeInfo": "14:13:56",
+  "versionTimeInfo": "14:30:57",
   "versionDateInfo": "2026-09-09",
-  "versionNotes": "- moved **MVP** from internal Repo to here...\n"
+  "versionNotes": "- rename\n"
 }
