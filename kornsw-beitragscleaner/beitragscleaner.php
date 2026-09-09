@@ -14,13 +14,6 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-
-/*************** SELF-UPDATE ***************/
-define( 'KSWBEITRAGSCLEA457B_SELF_UPDATE_DIAGNOSTICS', false );
-require_once __DIR__ . '/self-update.php';
-kswbeitragsclea457b_bootstrap( __FILE__ );
-/*******************************************/
-
 class Beitragscleaner {
     private const _ChunkSize = 50;
 
