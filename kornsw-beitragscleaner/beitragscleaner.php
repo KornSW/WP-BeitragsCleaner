@@ -2,7 +2,7 @@
 /**
  * Plugin Name: KornSW BeitragsCleaner
  * Description: Zeigt Beiträge ohne gültigen Autor an, verschiebt sie blockweise in den Papierkorb und kann den Papierkorb blockweise leeren.
- * Version: 1.2.2
+ * Version: 1.2.3
  * Author: KornSW
  * Plugin URI: https://github.com/KornSW/WP-BeitragsCleaner
  * Update URI: https://raw.githubusercontent.com/KornSW/WP-BeitragsCleaner/master/doc/kornsw-beitragscleaner.update.json
@@ -306,11 +306,10 @@ class Beitragscleaner {
         $sql = "
             SELECT p.ID, p.post_title, p.post_date, p.post_author
             FROM {$wpdb->posts} p
-            LEFT JOIN {$wpdb->users} u ON u.ID = p.post_author
             WHERE p.post_type = 'post'
             AND p.post_status IN ($placeholders)
-            AND (p.post_author = 0 OR u.ID IS NULL)
-            ORDER BY p.post_date ASC
+            AND p.post_author = 0
+            ORDER BY p.post_date ASC, p.ID ASC
         ";
 
         if ($limit > 0) {
@@ -329,10 +328,9 @@ class Beitragscleaner {
         $sql = "
             SELECT COUNT(*)
             FROM {$wpdb->posts} p
-            LEFT JOIN {$wpdb->users} u ON u.ID = p.post_author
             WHERE p.post_type = 'post'
             AND p.post_status IN ($placeholders)
-            AND (p.post_author = 0 OR u.ID IS NULL)
+            AND p.post_author = 0
         ";
 
         return intval($wpdb->get_var($wpdb->prepare($sql, $statuses)));
