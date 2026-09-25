@@ -1,13 +1,13 @@
 {
-  "currentVersionWithSuffix": "1.2.4",
+  "currentVersionWithSuffix": "1.2.5",
   "releaseType": "",
-  "currentVersion": "1.2.4",
+  "currentVersion": "1.2.5",
   "currentMajor": 1,
   "currentMinor": 2,
-  "currentFix": 4,
-  "previousVersion": "1.2.3",
+  "currentFix": 5,
+  "previousVersion": "1.2.4",
   "changeGrade": "fix",
-  "versionTimeInfo": "05:57:56",
+  "versionTimeInfo": "06:02:00",
   "versionDateInfo": "2026-09-25",
-  "versionNotes": "- Merge branch 'master' of https://github.com/KornSW/WP-BeitragsCleaner\n- Fix nicht mehr alle autoren\n"
+  "versionNotes": "- filter\n"
 }

@@ -1,14 +1,14 @@
 {
   "name": "KornSW BeitragsCleaner",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "KornSW",
   "homepage": "https://github.com/KornSW/WP-BeitragsCleaner",
-  "download_url": "https://github.com/KornSW/WP-BeitragsCleaner/releases/download/v1.2.4/kornsw-beitragscleaner.zip",
+  "download_url": "https://github.com/KornSW/WP-BeitragsCleaner/releases/download/v1.2.5/kornsw-beitragscleaner.zip",
   "requires": "6.0",
   "requires_php": "7.4",
   "tested": "",
   "sections": {
     "description": "Zeigt Beiträge ohne gültigen Autor an, verschiebt sie blockweise in den Papierkorb und kann den Papierkorb blockweise leeren.",
-    "changelog": "<h4>Version 1.2.4</h4><ul><li>Merge branch &#x27;master&#x27; of https://github.com/KornSW/WP-BeitragsCleaner</li><li>Fix nicht mehr alle autoren</li></ul>"
+    "changelog": "<h4>Version 1.2.5</h4><ul><li>filter</li></ul>"
   }
 }
